@@ -1,6 +1,5 @@
-/node_modules
+node_modules
 .env
-**/.env
 
 # Hardhat files
 /cache
@@ -13,3 +12,6 @@
 # solidity-coverage files
 /coverage
 /coverage.json
+
+# Hardhat ignition files
+ignition/deployments

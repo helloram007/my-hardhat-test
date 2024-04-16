@@ -55,12 +55,3 @@ npm install dotenv && touch .env
 npm install @openzeppelin/contracts
 ## if you want to upgradeable files of thiss verions.
 npm install @openzeppelin/contracts-upgradeable @openzeppelin/contracts
-
-
-
-
-
-
-
-
-
