@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy_localhost": "npx hardhat ignition deploy ./ignition/modules/Lock.js",
+    "deploy_sepolia": "npx hardhat ignition deploy ./ignition/modules/Lock.js --network sepolia"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +16,9 @@
     "hardhat": "^2.22.2"
   },
   "dependencies": {
+    "@nomicfoundation/hardhat-ignition": "^0.15.1",
     "@openzeppelin/contracts": "^5.0.2",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1"
   }
 }
